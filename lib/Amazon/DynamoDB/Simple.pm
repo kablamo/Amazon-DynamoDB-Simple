@@ -54,13 +54,13 @@ Amazon::DynamoDB::Simple - Simple to use and highly available
 
 =head1 DESCRIPTION
 
-DynamoDB is a simple key value store.  DDG::DynamoDB::Simple represents a single
-table in DynamoDB.
+DynamoDB is a simple key value store.  A DDG::DynamoDB::Simple object
+represents a single table in DynamoDB.
 
-This module provides a simpler UI to Amazon::DynamoDB.  It also makes your
-data highly available across exactly 2 AWS regions.  In other words it provides
-redundancy in case one region goes down.  It doesn't do async.  It doesn't
-(currently) support secondary keys.
+This module provides a simple UI layer on top of Amazon::DynamoDB.  It also
+makes your data highly available across exactly 2 AWS regions.  In other words
+it provides redundancy in case one region goes down.  It doesn't do async.  It
+doesn't (currently) support secondary keys.
 
 Note Amazon::DynamoDB can't handle complex data structures.  But this module
 can because it serializes yer stuff to JSON if needed.
