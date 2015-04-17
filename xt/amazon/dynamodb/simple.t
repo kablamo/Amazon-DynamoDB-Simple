@@ -1,8 +1,8 @@
 use Test::Most;
 
-use Amazon::DynamoDB::Easy;
+use Amazon::DynamoDB::Simple;
 
-my $dynamodb = Amazon::DynamoDB::Easy->new(
+my $dynamodb = Amazon::DynamoDB::Simple->new(
     table       => 'server_definitions',
     primary_key => 'node',
 );

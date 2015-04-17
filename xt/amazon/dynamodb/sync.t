@@ -1,6 +1,6 @@
 use Test::Most;
 
-use Amazon::DynamoDB::Easy;
+use Amazon::DynamoDB::Simple;
 
 my $table;
 my $node   = 'boopNode';  # unique name
@@ -22,7 +22,7 @@ my $cfg    = {
 };
 
 subtest 'setup' => sub {
-    $table = Amazon::DynamoDB::Easy->new(
+    $table = Amazon::DynamoDB::Simple->new(
         table       => 'server_definitions',
         primary_key => 'node',
     );
