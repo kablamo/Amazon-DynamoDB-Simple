@@ -56,7 +56,7 @@ Amazon::DynamoDB::Simple - Simple to use and highly available
 
 =head1 DESCRIPTION
 
-DynamoDB is a simple key value store.  An Amazon::DynamoDB::Simple object
+DynamoDB is a simple key value store.  A Amazon::DynamoDB::Simple object
 represents a single table in DynamoDB.
 
 This module provides a simple UI layer on top of Amazon::DynamoDB.  It also
