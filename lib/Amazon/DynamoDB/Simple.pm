@@ -6,6 +6,8 @@ use JSON::XS;
 use Moo;
 use Try::Tiny;
 
+our $VERSION="0.01";
+
 =head1 NAME
 
 Amazon::DynamoDB::Simple - Simple to use and highly available
